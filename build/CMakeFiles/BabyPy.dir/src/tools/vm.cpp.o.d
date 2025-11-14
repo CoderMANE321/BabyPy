@@ -1,5 +1,16 @@
-CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: \
-  /workspaces/BabyPy/src/tools/debug.cpp /usr/include/stdio.h \
+CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o: \
+  /workspaces/BabyPy/src/tools/vm.cpp \
+  /workspaces/BabyPy/include/common.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_max_align_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_offsetof.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdint.h /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -8,37 +19,14 @@ CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
-  /usr/lib/llvm-18/lib/clang/18/include/stdarg.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /workspaces/BabyPy/include/debug.h /workspaces/BabyPy/include/chunk.h \
-  /workspaces/BabyPy/include/common.h \
-  /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_max_align_t.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_offsetof.h \
-  /usr/lib/llvm-18/lib/clang/18/include/stdint.h /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /workspaces/BabyPy/include/vm.h /workspaces/BabyPy/include/chunk.h \
   /workspaces/BabyPy/include/value.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
@@ -53,8 +41,15 @@ CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/memoryfwd.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/postypes.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cwchar \
-  /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdarg.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/exception \
@@ -163,6 +158,12 @@ CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/std_abs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cerrno \
   /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -194,4 +195,5 @@ CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_ios.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
+  /workspaces/BabyPy/include/debug.h

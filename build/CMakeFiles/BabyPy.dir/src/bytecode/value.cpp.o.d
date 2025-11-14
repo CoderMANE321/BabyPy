@@ -1,5 +1,5 @@
-CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: \
-  /workspaces/BabyPy/src/tools/debug.cpp /usr/include/stdio.h \
+CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o: \
+  /workspaces/BabyPy/src/bytecode/value.cpp /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -26,8 +26,7 @@ CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /workspaces/BabyPy/include/debug.h /workspaces/BabyPy/include/chunk.h \
-  /workspaces/BabyPy/include/common.h \
+  /workspaces/BabyPy/include/value.h /workspaces/BabyPy/include/common.h \
   /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
@@ -39,7 +38,7 @@ CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /workspaces/BabyPy/include/value.h \
+  /workspaces/BabyPy/include/memory.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \

@@ -3,12 +3,16 @@ file(REMOVE_RECURSE
   "BabyPy.pdb"
   "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o"
   "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o.d"
+  "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o"
+  "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o.d"
   "CMakeFiles/BabyPy.dir/src/main.cpp.o"
   "CMakeFiles/BabyPy.dir/src/main.cpp.o.d"
   "CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o"
   "CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o.d"
   "CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o"
   "CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o.d"
+  "CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o"
+  "CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -153,6 +153,30 @@ src/bytecode/chunk.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.s
 .PHONY : src/bytecode/chunk.cpp.s
 
+src/bytecode/value.o: src/bytecode/value.cpp.o
+.PHONY : src/bytecode/value.o
+
+# target to build an object file
+src/bytecode/value.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o
+.PHONY : src/bytecode/value.cpp.o
+
+src/bytecode/value.i: src/bytecode/value.cpp.i
+.PHONY : src/bytecode/value.i
+
+# target to preprocess a source file
+src/bytecode/value.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.i
+.PHONY : src/bytecode/value.cpp.i
+
+src/bytecode/value.s: src/bytecode/value.cpp.s
+.PHONY : src/bytecode/value.s
+
+# target to generate assembly for a file
+src/bytecode/value.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.s
+.PHONY : src/bytecode/value.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -225,6 +249,30 @@ src/tools/memory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/memory.cpp.s
 .PHONY : src/tools/memory.cpp.s
 
+src/tools/vm.o: src/tools/vm.cpp.o
+.PHONY : src/tools/vm.o
+
+# target to build an object file
+src/tools/vm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o
+.PHONY : src/tools/vm.cpp.o
+
+src/tools/vm.i: src/tools/vm.cpp.i
+.PHONY : src/tools/vm.i
+
+# target to preprocess a source file
+src/tools/vm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/vm.cpp.i
+.PHONY : src/tools/vm.cpp.i
+
+src/tools/vm.s: src/tools/vm.cpp.s
+.PHONY : src/tools/vm.s
+
+# target to generate assembly for a file
+src/tools/vm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/vm.cpp.s
+.PHONY : src/tools/vm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,6 +285,9 @@ help:
 	@echo "... src/bytecode/chunk.o"
 	@echo "... src/bytecode/chunk.i"
 	@echo "... src/bytecode/chunk.s"
+	@echo "... src/bytecode/value.o"
+	@echo "... src/bytecode/value.i"
+	@echo "... src/bytecode/value.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -246,6 +297,9 @@ help:
 	@echo "... src/tools/memory.o"
 	@echo "... src/tools/memory.i"
 	@echo "... src/tools/memory.s"
+	@echo "... src/tools/vm.o"
+	@echo "... src/tools/vm.i"
+	@echo "... src/tools/vm.s"
 .PHONY : help
 
 

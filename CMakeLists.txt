@@ -17,4 +17,8 @@ add_executable(BabyPy
     include/memory.h
     include/debug.h
     src/tools/debug.cpp
+    include/value.h
+    src/bytecode/value.cpp
+    include/vm.h
+    src/tools/vm.cpp
 )

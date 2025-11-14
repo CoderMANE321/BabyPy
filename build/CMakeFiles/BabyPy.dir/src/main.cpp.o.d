@@ -25,4 +25,5 @@ CMakeFiles/BabyPy.dir/src/main.cpp.o: /workspaces/BabyPy/src/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /workspaces/BabyPy/include/chunk.h /workspaces/BabyPy/include/debug.h
+  /workspaces/BabyPy/include/chunk.h /workspaces/BabyPy/include/value.h \
+  /workspaces/BabyPy/include/debug.h /workspaces/BabyPy/include/vm.h
