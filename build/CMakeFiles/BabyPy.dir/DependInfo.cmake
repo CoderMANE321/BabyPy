@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/BabyPy/src/chunk.cpp" "CMakeFiles/BabyPy.dir/src/chunk.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/chunk.cpp.o.d"
+  "/workspaces/BabyPy/src/bytecode/chunk.cpp" "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o.d"
   "/workspaces/BabyPy/src/main.cpp" "CMakeFiles/BabyPy.dir/src/main.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/main.cpp.o.d"
-  "/workspaces/BabyPy/src/memory.cpp" "CMakeFiles/BabyPy.dir/src/memory.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/memory.cpp.o.d"
+  "/workspaces/BabyPy/src/tools/debug.cpp" "CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o.d"
+  "/workspaces/BabyPy/src/tools/memory.cpp" "CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

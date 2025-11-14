@@ -129,29 +129,29 @@ BabyPy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/build
 .PHONY : BabyPy/fast
 
-src/chunk.o: src/chunk.cpp.o
-.PHONY : src/chunk.o
+src/bytecode/chunk.o: src/bytecode/chunk.cpp.o
+.PHONY : src/bytecode/chunk.o
 
 # target to build an object file
-src/chunk.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/chunk.cpp.o
-.PHONY : src/chunk.cpp.o
+src/bytecode/chunk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o
+.PHONY : src/bytecode/chunk.cpp.o
 
-src/chunk.i: src/chunk.cpp.i
-.PHONY : src/chunk.i
+src/bytecode/chunk.i: src/bytecode/chunk.cpp.i
+.PHONY : src/bytecode/chunk.i
 
 # target to preprocess a source file
-src/chunk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/chunk.cpp.i
-.PHONY : src/chunk.cpp.i
+src/bytecode/chunk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.i
+.PHONY : src/bytecode/chunk.cpp.i
 
-src/chunk.s: src/chunk.cpp.s
-.PHONY : src/chunk.s
+src/bytecode/chunk.s: src/bytecode/chunk.cpp.s
+.PHONY : src/bytecode/chunk.s
 
 # target to generate assembly for a file
-src/chunk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/chunk.cpp.s
-.PHONY : src/chunk.cpp.s
+src/bytecode/chunk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.s
+.PHONY : src/bytecode/chunk.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -177,29 +177,53 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/memory.o: src/memory.cpp.o
-.PHONY : src/memory.o
+src/tools/debug.o: src/tools/debug.cpp.o
+.PHONY : src/tools/debug.o
 
 # target to build an object file
-src/memory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/memory.cpp.o
-.PHONY : src/memory.cpp.o
+src/tools/debug.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o
+.PHONY : src/tools/debug.cpp.o
 
-src/memory.i: src/memory.cpp.i
-.PHONY : src/memory.i
+src/tools/debug.i: src/tools/debug.cpp.i
+.PHONY : src/tools/debug.i
 
 # target to preprocess a source file
-src/memory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/memory.cpp.i
-.PHONY : src/memory.cpp.i
+src/tools/debug.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/debug.cpp.i
+.PHONY : src/tools/debug.cpp.i
 
-src/memory.s: src/memory.cpp.s
-.PHONY : src/memory.s
+src/tools/debug.s: src/tools/debug.cpp.s
+.PHONY : src/tools/debug.s
 
 # target to generate assembly for a file
-src/memory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/memory.cpp.s
-.PHONY : src/memory.cpp.s
+src/tools/debug.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/debug.cpp.s
+.PHONY : src/tools/debug.cpp.s
+
+src/tools/memory.o: src/tools/memory.cpp.o
+.PHONY : src/tools/memory.o
+
+# target to build an object file
+src/tools/memory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o
+.PHONY : src/tools/memory.cpp.o
+
+src/tools/memory.i: src/tools/memory.cpp.i
+.PHONY : src/tools/memory.i
+
+# target to preprocess a source file
+src/tools/memory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/memory.cpp.i
+.PHONY : src/tools/memory.cpp.i
+
+src/tools/memory.s: src/tools/memory.cpp.s
+.PHONY : src/tools/memory.s
+
+# target to generate assembly for a file
+src/tools/memory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/memory.cpp.s
+.PHONY : src/tools/memory.cpp.s
 
 # Help Target
 help:
@@ -210,15 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BabyPy"
-	@echo "... src/chunk.o"
-	@echo "... src/chunk.i"
-	@echo "... src/chunk.s"
+	@echo "... src/bytecode/chunk.o"
+	@echo "... src/bytecode/chunk.i"
+	@echo "... src/bytecode/chunk.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/memory.o"
-	@echo "... src/memory.i"
-	@echo "... src/memory.s"
+	@echo "... src/tools/debug.o"
+	@echo "... src/tools/debug.i"
+	@echo "... src/tools/debug.s"
+	@echo "... src/tools/memory.o"
+	@echo "... src/tools/memory.i"
+	@echo "... src/tools/memory.s"
 .PHONY : help
 
 

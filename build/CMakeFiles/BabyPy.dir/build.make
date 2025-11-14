@@ -83,49 +83,65 @@ CMakeFiles/BabyPy.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BabyPy.dir/src/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/BabyPy/src/main.cpp -o CMakeFiles/BabyPy.dir/src/main.cpp.s
 
-CMakeFiles/BabyPy.dir/src/chunk.cpp.o: CMakeFiles/BabyPy.dir/flags.make
-CMakeFiles/BabyPy.dir/src/chunk.cpp.o: /workspaces/BabyPy/src/chunk.cpp
-CMakeFiles/BabyPy.dir/src/chunk.cpp.o: CMakeFiles/BabyPy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/BabyPy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BabyPy.dir/src/chunk.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BabyPy.dir/src/chunk.cpp.o -MF CMakeFiles/BabyPy.dir/src/chunk.cpp.o.d -o CMakeFiles/BabyPy.dir/src/chunk.cpp.o -c /workspaces/BabyPy/src/chunk.cpp
+CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o: CMakeFiles/BabyPy.dir/flags.make
+CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o: /workspaces/BabyPy/src/bytecode/chunk.cpp
+CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o: CMakeFiles/BabyPy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/BabyPy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o -MF CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o.d -o CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o -c /workspaces/BabyPy/src/bytecode/chunk.cpp
 
-CMakeFiles/BabyPy.dir/src/chunk.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BabyPy.dir/src/chunk.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/BabyPy/src/chunk.cpp > CMakeFiles/BabyPy.dir/src/chunk.cpp.i
+CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/BabyPy/src/bytecode/chunk.cpp > CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.i
 
-CMakeFiles/BabyPy.dir/src/chunk.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BabyPy.dir/src/chunk.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/BabyPy/src/chunk.cpp -o CMakeFiles/BabyPy.dir/src/chunk.cpp.s
+CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/BabyPy/src/bytecode/chunk.cpp -o CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.s
 
-CMakeFiles/BabyPy.dir/src/memory.cpp.o: CMakeFiles/BabyPy.dir/flags.make
-CMakeFiles/BabyPy.dir/src/memory.cpp.o: /workspaces/BabyPy/src/memory.cpp
-CMakeFiles/BabyPy.dir/src/memory.cpp.o: CMakeFiles/BabyPy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/BabyPy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BabyPy.dir/src/memory.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BabyPy.dir/src/memory.cpp.o -MF CMakeFiles/BabyPy.dir/src/memory.cpp.o.d -o CMakeFiles/BabyPy.dir/src/memory.cpp.o -c /workspaces/BabyPy/src/memory.cpp
+CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o: CMakeFiles/BabyPy.dir/flags.make
+CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o: /workspaces/BabyPy/src/tools/memory.cpp
+CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o: CMakeFiles/BabyPy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/BabyPy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o -MF CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o.d -o CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o -c /workspaces/BabyPy/src/tools/memory.cpp
 
-CMakeFiles/BabyPy.dir/src/memory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BabyPy.dir/src/memory.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/BabyPy/src/memory.cpp > CMakeFiles/BabyPy.dir/src/memory.cpp.i
+CMakeFiles/BabyPy.dir/src/tools/memory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BabyPy.dir/src/tools/memory.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/BabyPy/src/tools/memory.cpp > CMakeFiles/BabyPy.dir/src/tools/memory.cpp.i
 
-CMakeFiles/BabyPy.dir/src/memory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BabyPy.dir/src/memory.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/BabyPy/src/memory.cpp -o CMakeFiles/BabyPy.dir/src/memory.cpp.s
+CMakeFiles/BabyPy.dir/src/tools/memory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BabyPy.dir/src/tools/memory.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/BabyPy/src/tools/memory.cpp -o CMakeFiles/BabyPy.dir/src/tools/memory.cpp.s
+
+CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: CMakeFiles/BabyPy.dir/flags.make
+CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: /workspaces/BabyPy/src/tools/debug.cpp
+CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o: CMakeFiles/BabyPy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/BabyPy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o -MF CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o.d -o CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o -c /workspaces/BabyPy/src/tools/debug.cpp
+
+CMakeFiles/BabyPy.dir/src/tools/debug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BabyPy.dir/src/tools/debug.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/BabyPy/src/tools/debug.cpp > CMakeFiles/BabyPy.dir/src/tools/debug.cpp.i
+
+CMakeFiles/BabyPy.dir/src/tools/debug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BabyPy.dir/src/tools/debug.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/BabyPy/src/tools/debug.cpp -o CMakeFiles/BabyPy.dir/src/tools/debug.cpp.s
 
 # Object files for target BabyPy
 BabyPy_OBJECTS = \
 "CMakeFiles/BabyPy.dir/src/main.cpp.o" \
-"CMakeFiles/BabyPy.dir/src/chunk.cpp.o" \
-"CMakeFiles/BabyPy.dir/src/memory.cpp.o"
+"CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o" \
+"CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o" \
+"CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o"
 
 # External object files for target BabyPy
 BabyPy_EXTERNAL_OBJECTS =
 
 BabyPy: CMakeFiles/BabyPy.dir/src/main.cpp.o
-BabyPy: CMakeFiles/BabyPy.dir/src/chunk.cpp.o
-BabyPy: CMakeFiles/BabyPy.dir/src/memory.cpp.o
+BabyPy: CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o
+BabyPy: CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o
+BabyPy: CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o
 BabyPy: CMakeFiles/BabyPy.dir/build.make
 BabyPy: CMakeFiles/BabyPy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/BabyPy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable BabyPy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/BabyPy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable BabyPy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BabyPy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

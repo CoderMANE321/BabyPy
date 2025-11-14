@@ -1,4 +1,5 @@
-CMakeFiles/BabyPy.dir/src/memory.cpp.o: /workspaces/BabyPy/src/memory.cpp \
+CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o: \
+  /workspaces/BabyPy/src/tools/memory.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdlib.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstdlib \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \

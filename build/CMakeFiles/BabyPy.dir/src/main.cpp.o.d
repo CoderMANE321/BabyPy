@@ -1,5 +1,5 @@
 CMakeFiles/BabyPy.dir/src/main.cpp.o: /workspaces/BabyPy/src/main.cpp \
-  /workspaces/BabyPy/src/common.h \
+  /workspaces/BabyPy/include/common.h \
   /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
@@ -25,4 +25,4 @@ CMakeFiles/BabyPy.dir/src/main.cpp.o: /workspaces/BabyPy/src/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /workspaces/BabyPy/src/chunk.h
+  /workspaces/BabyPy/include/chunk.h /workspaces/BabyPy/include/debug.h

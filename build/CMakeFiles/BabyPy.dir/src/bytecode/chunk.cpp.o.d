@@ -1,4 +1,5 @@
-CMakeFiles/BabyPy.dir/src/memory.cpp.o: /workspaces/BabyPy/src/memory.cpp \
+CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o: \
+  /workspaces/BabyPy/src/bytecode/chunk.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdlib.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstdlib \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -52,8 +53,7 @@ CMakeFiles/BabyPy.dir/src/memory.cpp.o: /workspaces/BabyPy/src/memory.cpp \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/std_abs.h \
-  /workspaces/BabyPy/include/memory.h \
-  /workspaces/BabyPy/include/common.h \
+  /workspaces/BabyPy/include/chunk.h /workspaces/BabyPy/include/common.h \
   /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h \
@@ -62,4 +62,5 @@ CMakeFiles/BabyPy.dir/src/memory.cpp.o: /workspaces/BabyPy/src/memory.cpp \
   /usr/lib/llvm-18/lib/clang/18/include/stdint.h /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /workspaces/BabyPy/include/memory.h

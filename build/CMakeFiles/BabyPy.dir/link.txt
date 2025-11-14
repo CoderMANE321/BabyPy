@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g CMakeFiles/BabyPy.dir/src/main.cpp.o CMakeFiles/BabyPy.dir/src/chunk.cpp.o CMakeFiles/BabyPy.dir/src/memory.cpp.o -o BabyPy 
+/usr/bin/clang++ -g CMakeFiles/BabyPy.dir/src/main.cpp.o CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o -o BabyPy 

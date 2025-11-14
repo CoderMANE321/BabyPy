@@ -7,14 +7,20 @@
 },
 {
   "directory": "/workspaces/BabyPy/build",
-  "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/chunk.cpp.o -c /workspaces/BabyPy/src/chunk.cpp",
-  "file": "/workspaces/BabyPy/src/chunk.cpp",
-  "output": "CMakeFiles/BabyPy.dir/src/chunk.cpp.o"
+  "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o -c /workspaces/BabyPy/src/bytecode/chunk.cpp",
+  "file": "/workspaces/BabyPy/src/bytecode/chunk.cpp",
+  "output": "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o"
 },
 {
   "directory": "/workspaces/BabyPy/build",
-  "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/memory.cpp.o -c /workspaces/BabyPy/src/memory.cpp",
-  "file": "/workspaces/BabyPy/src/memory.cpp",
-  "output": "CMakeFiles/BabyPy.dir/src/memory.cpp.o"
+  "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o -c /workspaces/BabyPy/src/tools/memory.cpp",
+  "file": "/workspaces/BabyPy/src/tools/memory.cpp",
+  "output": "CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o"
+},
+{
+  "directory": "/workspaces/BabyPy/build",
+  "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o -c /workspaces/BabyPy/src/tools/debug.cpp",
+  "file": "/workspaces/BabyPy/src/tools/debug.cpp",
+  "output": "CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o"
 }
 ]

@@ -10,9 +10,11 @@ include_directories(include)
 # Build the executable
 add_executable(BabyPy
     src/main.cpp
-    src/common.h
-    src/chunk.cpp
-    src/chunk.h
-    src/memory.cpp
-    src/memory.h
+    include/common.h
+    src/bytecode/chunk.cpp
+    include/chunk.h
+    src/tools/memory.cpp
+    include/memory.h
+    include/debug.h
+    src/tools/debug.cpp
 )
