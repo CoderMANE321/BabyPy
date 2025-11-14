@@ -1,0 +1,3 @@
+/workspaces/BabyPy/build/CMakeFiles/BabyPy.dir
+/workspaces/BabyPy/build/CMakeFiles/edit_cache.dir
+/workspaces/BabyPy/build/CMakeFiles/rebuild_cache.dir

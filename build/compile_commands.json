@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/workspaces/BabyPy/build",
+  "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/main.cpp.o -c /workspaces/BabyPy/src/main.cpp",
+  "file": "/workspaces/BabyPy/src/main.cpp",
+  "output": "CMakeFiles/BabyPy.dir/src/main.cpp.o"
+},
+{
+  "directory": "/workspaces/BabyPy/build",
+  "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/chunk.cpp.o -c /workspaces/BabyPy/src/chunk.cpp",
+  "file": "/workspaces/BabyPy/src/chunk.cpp",
+  "output": "CMakeFiles/BabyPy.dir/src/chunk.cpp.o"
+},
+{
+  "directory": "/workspaces/BabyPy/build",
+  "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/memory.cpp.o -c /workspaces/BabyPy/src/memory.cpp",
+  "file": "/workspaces/BabyPy/src/memory.cpp",
+  "output": "CMakeFiles/BabyPy.dir/src/memory.cpp.o"
+}
+]
