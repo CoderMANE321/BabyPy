@@ -21,4 +21,8 @@ add_executable(BabyPy
     src/bytecode/value.cpp
     include/vm.h
     src/tools/vm.cpp
+    include/compiler.h
+    src/tools/compiler.cpp
+    include/scanner.h
+    src/tools/scanner.cpp
 )

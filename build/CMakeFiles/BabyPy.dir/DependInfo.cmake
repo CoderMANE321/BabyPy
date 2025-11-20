@@ -11,8 +11,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/workspaces/BabyPy/src/bytecode/chunk.cpp" "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o.d"
   "/workspaces/BabyPy/src/bytecode/value.cpp" "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o.d"
   "/workspaces/BabyPy/src/main.cpp" "CMakeFiles/BabyPy.dir/src/main.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/main.cpp.o.d"
+  "/workspaces/BabyPy/src/tools/compiler.cpp" "CMakeFiles/BabyPy.dir/src/tools/compiler.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/tools/compiler.cpp.o.d"
   "/workspaces/BabyPy/src/tools/debug.cpp" "CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/tools/debug.cpp.o.d"
   "/workspaces/BabyPy/src/tools/memory.cpp" "CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/tools/memory.cpp.o.d"
+  "/workspaces/BabyPy/src/tools/scanner.cpp" "CMakeFiles/BabyPy.dir/src/tools/scanner.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/tools/scanner.cpp.o.d"
   "/workspaces/BabyPy/src/tools/vm.cpp" "CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o.d"
   )
 

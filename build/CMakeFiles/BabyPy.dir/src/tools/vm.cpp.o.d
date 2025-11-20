@@ -196,4 +196,5 @@ CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
-  /workspaces/BabyPy/include/debug.h
+  /workspaces/BabyPy/include/debug.h \
+  /workspaces/BabyPy/include/compiler.h

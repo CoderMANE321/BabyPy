@@ -201,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/tools/compiler.o: src/tools/compiler.cpp.o
+.PHONY : src/tools/compiler.o
+
+# target to build an object file
+src/tools/compiler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/compiler.cpp.o
+.PHONY : src/tools/compiler.cpp.o
+
+src/tools/compiler.i: src/tools/compiler.cpp.i
+.PHONY : src/tools/compiler.i
+
+# target to preprocess a source file
+src/tools/compiler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/compiler.cpp.i
+.PHONY : src/tools/compiler.cpp.i
+
+src/tools/compiler.s: src/tools/compiler.cpp.s
+.PHONY : src/tools/compiler.s
+
+# target to generate assembly for a file
+src/tools/compiler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/compiler.cpp.s
+.PHONY : src/tools/compiler.cpp.s
+
 src/tools/debug.o: src/tools/debug.cpp.o
 .PHONY : src/tools/debug.o
 
@@ -249,6 +273,30 @@ src/tools/memory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/memory.cpp.s
 .PHONY : src/tools/memory.cpp.s
 
+src/tools/scanner.o: src/tools/scanner.cpp.o
+.PHONY : src/tools/scanner.o
+
+# target to build an object file
+src/tools/scanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/scanner.cpp.o
+.PHONY : src/tools/scanner.cpp.o
+
+src/tools/scanner.i: src/tools/scanner.cpp.i
+.PHONY : src/tools/scanner.i
+
+# target to preprocess a source file
+src/tools/scanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/scanner.cpp.i
+.PHONY : src/tools/scanner.cpp.i
+
+src/tools/scanner.s: src/tools/scanner.cpp.s
+.PHONY : src/tools/scanner.s
+
+# target to generate assembly for a file
+src/tools/scanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/tools/scanner.cpp.s
+.PHONY : src/tools/scanner.cpp.s
+
 src/tools/vm.o: src/tools/vm.cpp.o
 .PHONY : src/tools/vm.o
 
@@ -291,12 +339,18 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/tools/compiler.o"
+	@echo "... src/tools/compiler.i"
+	@echo "... src/tools/compiler.s"
 	@echo "... src/tools/debug.o"
 	@echo "... src/tools/debug.i"
 	@echo "... src/tools/debug.s"
 	@echo "... src/tools/memory.o"
 	@echo "... src/tools/memory.i"
 	@echo "... src/tools/memory.s"
+	@echo "... src/tools/scanner.o"
+	@echo "... src/tools/scanner.i"
+	@echo "... src/tools/scanner.s"
 	@echo "... src/tools/vm.o"
 	@echo "... src/tools/vm.i"
 	@echo "... src/tools/vm.s"
