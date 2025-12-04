@@ -1121,6 +1121,10 @@ CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h
  /usr/include/x86_64-linux-gnu/sys/types.h
  /usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h
+ /usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h
+ /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h
+ /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h
+ /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_list.h
  /usr/lib/llvm-18/lib/clang/18/include/__stddef_max_align_t.h
  /usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h
  /usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h

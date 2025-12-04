@@ -1113,6 +1113,10 @@ CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o: /workspaces/BabyPy/src/tools/vm.cpp \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_list.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_max_align_t.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h \
@@ -1131,6 +1135,8 @@ CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o: /workspaces/BabyPy/src/tools/vm.cpp \
   /workspaces/BabyPy/include/value.h \
   /workspaces/BabyPy/include/vm.h
 
+
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h:
 
 /workspaces/BabyPy/src/tools/scanner.cpp:
 
@@ -1191,6 +1197,8 @@ CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o: /workspaces/BabyPy/src/tools/vm.cpp \
 /usr/include/linux/errno.h:
 
 /usr/include/ctype.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_list.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
 
@@ -1273,6 +1281,8 @@ CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o: /workspaces/BabyPy/src/tools/vm.cpp \
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -1543,6 +1553,8 @@ CMakeFiles/BabyPy.dir/src/tools/vm.cpp.o: /workspaces/BabyPy/src/tools/vm.cpp \
 /usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h:
 
 /usr/include/c++/13/bits/uses_allocator.h:
 

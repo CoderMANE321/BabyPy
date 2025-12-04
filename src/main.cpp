@@ -62,7 +62,7 @@ int main(int argc, const char* argv[]) {
     } else if (argc == 2) {
         runFile(argv[1]);
     } else {
-        std::cout << "Usauge: byp [path]" << std::endl;
+        std::cout << "Usage: byp [path]" << std::endl;
         exit(64);
     }
 
