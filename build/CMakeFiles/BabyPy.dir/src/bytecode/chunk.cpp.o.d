@@ -63,4 +63,5 @@ CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /workspaces/BabyPy/include/value.h /workspaces/BabyPy/include/memory.h
+  /workspaces/BabyPy/include/value.h /workspaces/BabyPy/include/memory.h \
+  /workspaces/BabyPy/include/object.h

@@ -46,5 +46,11 @@
   "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/tools/scanner.cpp.o -c /workspaces/BabyPy/src/tools/scanner.cpp",
   "file": "/workspaces/BabyPy/src/tools/scanner.cpp",
   "output": "CMakeFiles/BabyPy.dir/src/tools/scanner.cpp.o"
+},
+{
+  "directory": "/workspaces/BabyPy/build",
+  "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o -c /workspaces/BabyPy/src/bytecode/object.cpp",
+  "file": "/workspaces/BabyPy/src/bytecode/object.cpp",
+  "output": "CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o"
 }
 ]

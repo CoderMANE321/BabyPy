@@ -25,4 +25,6 @@ add_executable(BabyPy
     src/tools/compiler.cpp
     include/scanner.h
     src/tools/scanner.cpp
+    include/object.h
+    src/bytecode/object.cpp
 )

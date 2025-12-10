@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "BabyPy.pdb"
   "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o"
   "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o.d"
+  "CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o"
+  "CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o.d"
   "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o"
   "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o.d"
   "CMakeFiles/BabyPy.dir/src/main.cpp.o"

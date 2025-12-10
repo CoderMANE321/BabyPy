@@ -75,5 +75,6 @@ CMakeFiles/BabyPy.dir/src/tools/compiler.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /workspaces/BabyPy/include/compiler.h /workspaces/BabyPy/include/vm.h \
   /workspaces/BabyPy/include/chunk.h /workspaces/BabyPy/include/value.h \
+  /workspaces/BabyPy/include/object.h \
   /workspaces/BabyPy/include/scanner.h \
   /workspaces/BabyPy/include/debug.h

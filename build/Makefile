@@ -153,6 +153,30 @@ src/bytecode/chunk.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.s
 .PHONY : src/bytecode/chunk.cpp.s
 
+src/bytecode/object.o: src/bytecode/object.cpp.o
+.PHONY : src/bytecode/object.o
+
+# target to build an object file
+src/bytecode/object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o
+.PHONY : src/bytecode/object.cpp.o
+
+src/bytecode/object.i: src/bytecode/object.cpp.i
+.PHONY : src/bytecode/object.i
+
+# target to preprocess a source file
+src/bytecode/object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.i
+.PHONY : src/bytecode/object.cpp.i
+
+src/bytecode/object.s: src/bytecode/object.cpp.s
+.PHONY : src/bytecode/object.s
+
+# target to generate assembly for a file
+src/bytecode/object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.s
+.PHONY : src/bytecode/object.cpp.s
+
 src/bytecode/value.o: src/bytecode/value.cpp.o
 .PHONY : src/bytecode/value.o
 
@@ -333,6 +357,9 @@ help:
 	@echo "... src/bytecode/chunk.o"
 	@echo "... src/bytecode/chunk.i"
 	@echo "... src/bytecode/chunk.s"
+	@echo "... src/bytecode/object.o"
+	@echo "... src/bytecode/object.i"
+	@echo "... src/bytecode/object.s"
 	@echo "... src/bytecode/value.o"
 	@echo "... src/bytecode/value.i"
 	@echo "... src/bytecode/value.s"
