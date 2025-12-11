@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o.d"
   "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o"
   "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o.d"
+  "CMakeFiles/BabyPy.dir/src/containers/table.c.o"
+  "CMakeFiles/BabyPy.dir/src/containers/table.c.o.d"
   "CMakeFiles/BabyPy.dir/src/main.cpp.o"
   "CMakeFiles/BabyPy.dir/src/main.cpp.o.d"
   "CMakeFiles/BabyPy.dir/src/tools/compiler.cpp.o"
@@ -22,6 +24,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/BabyPy.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

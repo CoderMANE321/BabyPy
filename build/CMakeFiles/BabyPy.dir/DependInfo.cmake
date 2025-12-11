@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/workspaces/BabyPy/src/containers/table.c" "CMakeFiles/BabyPy.dir/src/containers/table.c.o" "gcc" "CMakeFiles/BabyPy.dir/src/containers/table.c.o.d"
   "/workspaces/BabyPy/src/bytecode/chunk.cpp" "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/bytecode/chunk.cpp.o.d"
   "/workspaces/BabyPy/src/bytecode/object.cpp" "CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o.d"
   "/workspaces/BabyPy/src/bytecode/value.cpp" "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o" "gcc" "CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.o.d"

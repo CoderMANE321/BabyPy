@@ -52,5 +52,11 @@
   "command": "/usr/bin/clang++  -I/workspaces/BabyPy/include -g -std=gnu++20 -o CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o -c /workspaces/BabyPy/src/bytecode/object.cpp",
   "file": "/workspaces/BabyPy/src/bytecode/object.cpp",
   "output": "CMakeFiles/BabyPy.dir/src/bytecode/object.cpp.o"
+},
+{
+  "directory": "/workspaces/BabyPy/build",
+  "command": "/usr/bin/clang  -I/workspaces/BabyPy/include -g -o CMakeFiles/BabyPy.dir/src/containers/table.c.o -c /workspaces/BabyPy/src/containers/table.c",
+  "file": "/workspaces/BabyPy/src/containers/table.c",
+  "output": "CMakeFiles/BabyPy.dir/src/containers/table.c.o"
 }
 ]

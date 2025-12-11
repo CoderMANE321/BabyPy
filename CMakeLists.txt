@@ -27,4 +27,6 @@ add_executable(BabyPy
     src/tools/scanner.cpp
     include/object.h
     src/bytecode/object.cpp
+    include/table.h
+    src/containers/table.c
 )

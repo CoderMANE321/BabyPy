@@ -201,6 +201,30 @@ src/bytecode/value.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/bytecode/value.cpp.s
 .PHONY : src/bytecode/value.cpp.s
 
+src/containers/table.o: src/containers/table.c.o
+.PHONY : src/containers/table.o
+
+# target to build an object file
+src/containers/table.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/containers/table.c.o
+.PHONY : src/containers/table.c.o
+
+src/containers/table.i: src/containers/table.c.i
+.PHONY : src/containers/table.i
+
+# target to preprocess a source file
+src/containers/table.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/containers/table.c.i
+.PHONY : src/containers/table.c.i
+
+src/containers/table.s: src/containers/table.c.s
+.PHONY : src/containers/table.s
+
+# target to generate assembly for a file
+src/containers/table.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabyPy.dir/build.make CMakeFiles/BabyPy.dir/src/containers/table.c.s
+.PHONY : src/containers/table.c.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -363,6 +387,9 @@ help:
 	@echo "... src/bytecode/value.o"
 	@echo "... src/bytecode/value.i"
 	@echo "... src/bytecode/value.s"
+	@echo "... src/containers/table.o"
+	@echo "... src/containers/table.i"
+	@echo "... src/containers/table.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
